@@ -1,0 +1,1034 @@
+{
+  "39:2025:1001": [
+    {
+      "fixture": {
+        "date": "2026-03-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1101,
+        "name": "EPL Opp 1"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-03-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1102,
+        "name": "EPL Opp 2"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-22T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1103,
+        "name": "EPL Opp 3"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-15T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1104,
+        "name": "EPL Opp 4"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1105,
+        "name": "EPL Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1101,
+        "name": "EPL Opp 1"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-25T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1102,
+        "name": "EPL Opp 2"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-18T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1103,
+        "name": "EPL Opp 3"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-11T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1104,
+        "name": "EPL Opp 4"
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-04T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1105,
+        "name": "EPL Opp 5"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-28T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1101,
+        "name": "EPL Opp 1"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-21T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1102,
+        "name": "EPL Opp 2"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-14T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1103,
+        "name": "EPL Opp 3"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-07T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1104,
+        "name": "EPL Opp 4"
+      },
+      "awayTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "goals": {
+        "home": 2,
+        "away": 4
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-11-30T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1001,
+        "name": "Arsenal"
+      },
+      "awayTeam": {
+        "id": 1105,
+        "name": "EPL Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    }
+  ],
+  "39:2025:1002": [
+    {
+      "fixture": {
+        "date": "2026-03-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1201,
+        "name": "EPL Opp 1"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-03-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1202,
+        "name": "EPL Opp 2"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-22T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1203,
+        "name": "EPL Opp 3"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-15T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1204,
+        "name": "EPL Opp 4"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1205,
+        "name": "EPL Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1201,
+        "name": "EPL Opp 1"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-25T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1202,
+        "name": "EPL Opp 2"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-18T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1203,
+        "name": "EPL Opp 3"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-11T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1204,
+        "name": "EPL Opp 4"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-04T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1205,
+        "name": "EPL Opp 5"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-28T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1201,
+        "name": "EPL Opp 1"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-21T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1202,
+        "name": "EPL Opp 2"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-14T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1203,
+        "name": "EPL Opp 3"
+      },
+      "goals": {
+        "home": 2,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-07T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1204,
+        "name": "EPL Opp 4"
+      },
+      "awayTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-11-30T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 1002,
+        "name": "Chelsea"
+      },
+      "awayTeam": {
+        "id": 1205,
+        "name": "EPL Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    }
+  ],
+  "135:2025:2001": [
+    {
+      "fixture": {
+        "date": "2026-03-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2101,
+        "name": "SA Opp 1"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-03-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2102,
+        "name": "SA Opp 2"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 1,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-22T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2103,
+        "name": "SA Opp 3"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-15T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2104,
+        "name": "SA Opp 4"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2105,
+        "name": "SA Opp 5"
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2101,
+        "name": "SA Opp 1"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-25T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2102,
+        "name": "SA Opp 2"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-18T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2103,
+        "name": "SA Opp 3"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-11T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2104,
+        "name": "SA Opp 4"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-04T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2105,
+        "name": "SA Opp 5"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-28T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2101,
+        "name": "SA Opp 1"
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-21T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2102,
+        "name": "SA Opp 2"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-14T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2103,
+        "name": "SA Opp 3"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-07T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2104,
+        "name": "SA Opp 4"
+      },
+      "awayTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "goals": {
+        "home": 0,
+        "away": 2
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-11-30T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2001,
+        "name": "Inter"
+      },
+      "awayTeam": {
+        "id": 2105,
+        "name": "SA Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    }
+  ],
+  "135:2025:2002": [
+    {
+      "fixture": {
+        "date": "2026-03-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2201,
+        "name": "SA Opp 1"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-03-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2202,
+        "name": "SA Opp 2"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-22T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2203,
+        "name": "SA Opp 3"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-15T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2204,
+        "name": "SA Opp 4"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-08T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2205,
+        "name": "SA Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-02-01T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2201,
+        "name": "SA Opp 1"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-25T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2202,
+        "name": "SA Opp 2"
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-18T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2203,
+        "name": "SA Opp 3"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-11T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2204,
+        "name": "SA Opp 4"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2026-01-04T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2205,
+        "name": "SA Opp 5"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-28T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2201,
+        "name": "SA Opp 1"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-21T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2202,
+        "name": "SA Opp 2"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-14T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2203,
+        "name": "SA Opp 3"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-12-07T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2204,
+        "name": "SA Opp 4"
+      },
+      "awayTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "goals": {
+        "home": 0,
+        "away": 0
+      }
+    },
+    {
+      "fixture": {
+        "date": "2025-11-30T00:00:00+00:00"
+      },
+      "homeTeam": {
+        "id": 2002,
+        "name": "Napoli"
+      },
+      "awayTeam": {
+        "id": 2205,
+        "name": "SA Opp 5"
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      }
+    }
+  ],
+  "39:2024:1001": [],
+  "39:2024:1002": [],
+  "135:2024:2001": [],
+  "135:2024:2002": []
+}

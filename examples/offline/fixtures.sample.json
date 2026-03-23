@@ -1,0 +1,28 @@
+[
+  {
+    "id": 9001,
+    "league_code": "EPL",
+    "utcDate": "2026-03-18T19:30:00Z",
+    "homeTeam": {
+      "id": 1001,
+      "name": "Arsenal"
+    },
+    "awayTeam": {
+      "id": 1002,
+      "name": "Chelsea"
+    }
+  },
+  {
+    "id": 9002,
+    "league_code": "SA",
+    "utcDate": "2026-03-19T19:45:00Z",
+    "homeTeam": {
+      "id": 2001,
+      "name": "Inter"
+    },
+    "awayTeam": {
+      "id": 2002,
+      "name": "Napoli"
+    }
+  }
+]

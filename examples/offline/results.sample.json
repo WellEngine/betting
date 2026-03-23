@@ -1,0 +1,16 @@
+[
+  {
+    "match_id": 9001,
+    "goals": {
+      "home": 2,
+      "away": 1
+    }
+  },
+  {
+    "match_id": 9002,
+    "goals": {
+      "home": 1,
+      "away": 0
+    }
+  }
+]

@@ -1,0 +1,21 @@
+{
+  "9001:1001": [
+    {
+      "name": "Arsenal Main Striker",
+      "position": "Attacker"
+    }
+  ],
+  "9001:1002": [
+    {
+      "name": "Chelsea CB",
+      "position": "Defender"
+    }
+  ],
+  "9002:2001": [],
+  "9002:2002": [
+    {
+      "name": "Napoli GK",
+      "position": "Goalkeeper"
+    }
+  ]
+}

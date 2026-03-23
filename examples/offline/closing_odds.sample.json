@@ -1,0 +1,22 @@
+[
+  {
+    "match_id": 9001,
+    "market": "over_2_5",
+    "closing_odds": 1.71
+  },
+  {
+    "match_id": 9001,
+    "market": "under_3_5",
+    "closing_odds": 1.44
+  },
+  {
+    "match_id": 9002,
+    "market": "under_2_5",
+    "closing_odds": 1.55
+  },
+  {
+    "match_id": 9002,
+    "market": "under_3_5",
+    "closing_odds": 1.31
+  }
+]

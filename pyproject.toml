@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "value-engine-upgrade"
+version = "0.1.0"
+description = "Football totals value engine with calibration and CLV tracking"
+requires-python = ">=3.10"
+dependencies = [
+    "requests>=2.31.0",
+    "python-dotenv>=1.0.1",
+]
+
+[tool.setuptools.packages.find]
+include = ["value_engine*"]
