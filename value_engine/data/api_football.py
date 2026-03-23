@@ -24,6 +24,9 @@ BET_NAME_ALIASES = {
     "Over/Under": "totals",
 }
 
+# Инициализируем сессию для переиспользования TCP-соединений
+_SESSION = requests.Session()
+
 
 def _offline_path(name: str) -> Path | None:
     if OFFLINE_DIR is None:
@@ -64,7 +67,7 @@ def _headers() -> Dict[str, str]:
 
 
 def _get(endpoint: str, params: Dict) -> Dict:
-    response = requests.get(
+    response = _SESSION.get(
         f"{API_FOOTBALL_BASE_URL}/{endpoint.lstrip('/')}",
         headers=_headers(),
         params=params,
@@ -143,7 +146,6 @@ def get_fixture_odds(match_id: int) -> Dict[str, float]:
                     if market_key not in SUPPORTED_MARKETS or odd in {None, ""}:
                         continue
                     odd = float(odd)
-                    # Для поиска value выгоднее брать лучший доступный back price.
                     best[market_key] = max(best.get(market_key, 0.0), odd)
 
     return best
@@ -154,5 +156,4 @@ def get_team_missing_players(team_id: int, fixture_id: int) -> List[dict]:
         key = f"{fixture_id}:{team_id}"
         return _load_offline_missing_players().get(key, [])
 
-    # TODO: Подключить реальный источник absences, когда будет качественный парсинг составов.
     return []
