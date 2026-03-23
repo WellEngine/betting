@@ -3,7 +3,7 @@ from __future__ import annotations
 from typing import Dict, List
 
 from value_engine.model.model import predict_match
-from value_engine.roi.tracker import track_market
+from value_engine.roi.tracker import track_markets_batch
 
 
 DEBUG = False
@@ -44,12 +44,12 @@ def is_safe_market(*, market: Dict, expected_goals: Dict) -> tuple[bool, str]:
             return False, "lambda_gap > 0.90"
         return True, "OK"
 
-    # В safe-профиле deliberately не оставляем мёртвые или спорные рынки.
     return False, "market_not_safe_type"
 
 
 def _collect_matches(fixtures: List[Dict], *, limit: int) -> List[Dict]:
     results: List[Dict] = []
+    picks_to_track: List[Dict] = []  # Буфер для пакетного сохранения
 
     for fixture in fixtures:
         league_code = fixture["league_code"]
@@ -96,21 +96,27 @@ def _collect_matches(fixtures: List[Dict], *, limit: int) -> List[Dict]:
             }
         )
 
+        match_metadata = {
+            "match_id": fixture["id"],
+            "league": league_code,
+            "home": fixture["homeTeam"]["name"],
+            "away": fixture["awayTeam"]["name"],
+            "utcDate": fixture["utcDate"],
+        }
+
         for market in safe_markets[:MAX_MARKETS_PER_MATCH]:
-            track_market(
-                match={
-                    "match_id": fixture["id"],
-                    "league": league_code,
-                    "home": fixture["homeTeam"]["name"],
-                    "away": fixture["awayTeam"]["name"],
-                    "utcDate": fixture["utcDate"],
-                },
-                market=market,
-                value_type="safe",
-            )
+            picks_to_track.append({
+                "match": match_metadata,
+                "market": market,
+                "value_type": "safe"
+            })
 
         if len(results) >= limit:
             break
+
+    # Единоразовая запись всех рынков на диск
+    if picks_to_track:
+        track_markets_batch(picks_to_track)
 
     return results
 
