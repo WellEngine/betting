@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections import defaultdict
 from datetime import datetime
+from functools import lru_cache
 from typing import Iterable, List, Tuple
 
 from value_engine.data.api_football import get_team_last_matches
@@ -87,6 +88,7 @@ def _finalize(stats: dict) -> dict:
     }
 
 
+@lru_cache(maxsize=128)
 def get_team_stats(team_id: int, league_code: str) -> dict:
     league = get_league_config(league_code)
     if not league:
