@@ -7,13 +7,17 @@ from typing import Dict
 EPSILON = 1e-9
 MIN_LAMBDA = 0.35
 
+# Предвычисляем факториалы для 0-25 (этого с огромным запасом хватит для футбола)
+_FACTORIALS = [math.factorial(i) for i in range(25)]
+
 
 def _clamp_probability(value: float) -> float:
     return min(max(value, 0.0), 1.0)
 
 
 def poisson_pmf(lmbda: float, k: int) -> float:
-    return (math.exp(-lmbda) * (lmbda ** k)) / math.factorial(k)
+    fact = _FACTORIALS[k] if k < 25 else math.factorial(k)
+    return (math.exp(-lmbda) * (lmbda ** k)) / fact
 
 
 def poisson_cdf(lmbda: float, k: int) -> float:
