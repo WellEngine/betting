@@ -53,40 +53,56 @@ def _upsert_row(rows: List[dict], row: dict) -> dict:
     return row
 
 
-def track_market(*, match: Dict, market: Dict, value_type: str, path: Path | None = None) -> dict:
-    if market.get("market") not in SUPPORTED_MARKETS:
-        return {}
-
+def track_markets_batch(picks_data: List[Dict], path: Path | None = None) -> List[dict]:
+    """Пакетное сохранение рынков (решает проблему O(N^2) записи на диск)"""
     rows = _load_rows(path)
+    saved_picks = []
+    
+    for item in picks_data:
+        match = item["match"]
+        market = item["market"]
+        value_type = item["value_type"]
+        
+        if market.get("market") not in SUPPORTED_MARKETS:
+            continue
 
-    pick = {
-        "pick_id": _pick_id(match["match_id"], market["market"], value_type),
-        "match_id": match["match_id"],
-        "league": match.get("league"),
-        "home": match.get("home"),
-        "away": match.get("away"),
-        "utcDate": match.get("utcDate"),
-        "market": market["market"],
-        "value_type": value_type,
-        "raw_probability": market.get("raw_probability"),
-        "probability": market.get("probability"),
-        "calibration_applied": market.get("calibration_applied", False),
-        "odds_picked": market.get("odds"),
-        "fair_odds": market.get("fair_odds"),
-        "edge": market.get("edge"),
-        "edge_percent": market.get("edge_percent"),
-        "value": market.get("value"),
-        "confidence": market.get("confidence"),
-        "closing_odds": None,
-        "clv_pct": None,
-        "clv_implied_shift": None,
-        "result": None,
-        "profit_units": None,
-    }
+        pick = {
+            "pick_id": _pick_id(match["match_id"], market["market"], value_type),
+            "match_id": match["match_id"],
+            "league": match.get("league"),
+            "home": match.get("home"),
+            "away": match.get("away"),
+            "utcDate": match.get("utcDate"),
+            "market": market["market"],
+            "value_type": value_type,
+            "raw_probability": market.get("raw_probability"),
+            "probability": market.get("probability"),
+            "calibration_applied": market.get("calibration_applied", False),
+            "odds_picked": market.get("odds"),
+            "fair_odds": market.get("fair_odds"),
+            "edge": market.get("edge"),
+            "edge_percent": market.get("edge_percent"),
+            "value": market.get("value"),
+            "confidence": market.get("confidence"),
+            "closing_odds": None,
+            "clv_pct": None,
+            "clv_implied_shift": None,
+            "result": None,
+            "profit_units": None,
+        }
+        saved = _upsert_row(rows, pick)
+        saved_picks.append(saved)
+        
+    if saved_picks:
+        _save_rows(rows, path)
+        
+    return saved_picks
 
-    saved = _upsert_row(rows, pick)
-    _save_rows(rows, path)
-    return saved
+
+def track_market(*, match: Dict, market: Dict, value_type: str, path: Path | None = None) -> dict:
+    """Оставлено для обратной совместимости. Рекомендуется использовать track_markets_batch."""
+    res = track_markets_batch([{"match": match, "market": market, "value_type": value_type}], path)
+    return res[0] if res else {}
 
 
 def load_tracked_picks(path: Path | None = None) -> List[dict]:
